@@ -84,7 +84,7 @@ tags_only: &tags_only
 
 workflows:
   version: 2
-  section_07:
+  test_and_deploy_workflow:
     jobs:
       - test_app
       - deploy_app_to_heroku:
